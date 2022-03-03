@@ -36,6 +36,23 @@ function conection(status) {
       return "Offline";
     }
 } 
+function saludo(idioma) {
+  // Devuelve un saludo en tres diferentes lenguajes:
+  // Si "idioma" es "aleman", devuelve "Guten Tag!"
+  // Si "idioma" es "mandarin", devuelve "Ni Hao!"
+  // Si "idioma" es "ingles", devuelve "Hello!"
+  // Si "idioma" no es ninguno de los anteiores o es `undefined` devuelve "Hola!"
+  // Tu código:
+  if (idioma === "aleman") {
+    return "Guten Tag!";
+  } if (idioma === "mandarin") {
+    return "Ni Hao!";
+  } if (idioma === "ingles") {
+    return "Hello!";
+  } else {
+    return "Hola!";
+  }
+}
 
 function colors(color) {
   //La función recibe un color. Devolver el string correspondiente:
