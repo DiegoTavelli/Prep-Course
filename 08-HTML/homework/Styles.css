@@ -1,12 +1,17 @@
 body {
-    background-color: rgb(209, 110, 110);
+    background-color: rgb(224, 204, 204);
   }
   
   p {
-    color: blue;
-    font-size: 30px;
+    color: #01010a;
+    font-size: 18px;
+    font-style: oblique;
   }
   
   .amarillo {
     color: yellow;
+  }
+
+  h3 {
+    text-shadow: 0.5px  ;
   }
