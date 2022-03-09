@@ -1,0 +1,12 @@
+body {
+    background-color: rgb(209, 110, 110);
+  }
+  
+  p {
+    color: blue;
+    font-size: 30px;
+  }
+  
+  .amarillo {
+    color: yellow;
+  }
