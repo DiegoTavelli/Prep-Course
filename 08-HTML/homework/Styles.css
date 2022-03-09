@@ -2,6 +2,10 @@ body {
     background-color: rgb(224, 204, 204);
   }
   
+    h1 {
+      color: indigo;
+    }
+
   p {
     color: #01010a;
     font-size: 18px;
@@ -15,3 +19,21 @@ body {
   h3 {
     text-shadow: 0.5px  ;
   }
+
+  img {
+    width: 400px;
+  }
+
+  #thirdDiv {
+    height: 600px;
+    width: 500px;
+    background-color: indianred;
+    padding: 50px;
+    border: 10px solid blue;;
+  } 
+
+  #spanid {
+font-size: 18px;  
+margin: 50px;
+  }
+
